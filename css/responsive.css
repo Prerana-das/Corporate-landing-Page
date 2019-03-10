@@ -1,0 +1,320 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.promo-content h1 {
+	font-size: 45px;
+	margin-bottom: 60px;
+}
+.service-area {
+	padding: 45px 0px;
+}
+.section-title p {
+	font-size: 17px;
+}
+.section-title h1 {
+	font-size: 35px;
+	line-height: 48px;
+}
+.single-service i {
+	font-size: 42px;
+	margin-bottom: 15px;
+	display: block;
+	color: #38d39f;
+}
+.single-service {
+	padding: 43px 15px;
+}
+.single-service h3 {
+	font-size: 18px;
+}
+.info {
+	margin-bottom: 27px;
+}
+.contact-info h2 {
+	font-size: 32px;
+	margin-bottom: 36px;
+}
+.info span {
+	font-size: 14px;
+}
+.footer-area {
+	padding: 35px 0px;
+}
+
+/* about page */
+.about-promo-area {
+	padding: 30px 0px;
+}
+.about-promo-content p {
+	font-size: 30px;
+	line-height: 55px;
+}
+
+/* service page */
+.service-promo-content,.team-promo-content,.work-promo-content,.contact-promo-content{
+	position: relative;
+	display: block;
+}
+.service-promo-content h2, .team-promo-content h2, .work-promo-content h2, .contact-promo-content h2 {
+	font-size: 37px;
+	line-height: 55px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+/* contact page */
+.contact-form input[type="text"] {
+	margin-bottom: 30px;
+}
+
+}
+
+
+/* Extra small Device. */
+@media only screen and (min-width: 320px) and (max-width: 767px){
+#mainNav{
+	position:fixed;
+	z-index:1111;
+	width:100%;
+	padding: 6px 0px;
+	border-bottom:1px solid #ddd;
+}
+p{
+	font-size: 14px;
+}
+.section-title {
+	margin-bottom: 46px;
+}
+.section-title h1 {
+	font-size: 32px;
+	line-height: 42px;
+}
+.section-title p {
+	font-size: 16px;
+}
+a.border-btn {
+	padding: 12px 38px;
+	font-size: 14px;
+}
+.logo{
+	text-align:center;
+	
+}
+.toggle-menu{
+	display:block;
+	max-width:-webkit-min-content;
+	max-width:-moz-min-content;
+	max-width:-o-min-content;
+	max-width:min-content;
+	background:#38d39f;
+	color:#fff !important;
+	text-align:center;
+	padding: 8px 12px;
+	border-radius:.25em;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	margin:20px auto 10px auto;
+}
+.toggle-menu:hover{
+	background:#2B2B2B;
+	color:#fff;
+}
+.nav-list{
+	display:block;
+	width:100%;
+	position:static;
+	z-index:1012;
+	left:0;
+	top:0;
+	background:#2B2B2B;
+	text-align:center;
+	max-height:0;
+	overflow:hidden;
+}
+.activeNav{
+	max-height:100%; 
+	overflow:auto;
+}
+.nav-list li{
+	display:block;
+}
+.nav-list li>a{
+	color:#fff;
+	background-color:#38d39f;
+	line-height:40px;
+	display:block;
+}
+.nav-list li>a:hover{
+	color: #fff !important;
+	background:#2B2B2B;
+	
+}
+a.current {
+color:#2B2B2B !important;
+}
+.header-promo {
+	padding: 85px 0px 70px 0px;
+}
+.work-promo-area, .service-promo-area, .team-promo-area, .contact-promo-area {
+	padding: 130px 0px 70px 0px;
+}
+.promo-content h1 {
+	font-size: 45px;
+	margin-bottom:50px;
+}
+.about-area {
+	padding: 240px 0px 55px 0px;
+}
+.about-img1 {
+	margin: 0 auto;
+	width: 260px;
+	height: 260px;
+}
+.about-img2 {
+	position: absolute;
+	left: -19px;
+	top: -210px;
+	width: 292px;
+	height: 292px;
+	border-radius: 50%;
+}
+.about-img1::after {
+	width: 413px;
+	height: 398px;
+	top: -40%;
+	right: 175px;
+}
+.about-content {
+	margin-top: 48px;
+}
+.about-content h1 {
+	margin-bottom: 32px;
+	font-size:32px;
+}
+.about-content span {
+	font-size: 16px;
+}
+.service-area, .team-area, .portfolio-area, .contact-area, .testimonial-area {
+	padding: 30px 0px;
+}
+.single-service i {
+	font-size: 40px;
+}
+.single-service h3 {
+	font-size: 18px;
+}
+.portfolio-content h3 {
+	font-size: 24px;
+}
+.contact-info h2 {
+	font-size: 28px;
+	margin-bottom: 28px;
+}
+.info {
+	margin-bottom: 28px;
+}
+.info h4 {
+	font-size: 20px;
+}
+.info span {
+	font-size: 15px;
+}
+.footer-area {
+	padding: 30px 0px;
+}
+
+/* about page */
+.about-promo-area {
+	padding: 80px 0px 15px 0px;
+}
+.about-promo-img1::after {
+	position: absolute;
+	content: "";
+	width: 162px;
+	height: 162px;
+	border-radius: 50%;
+	background-color: #38d39f;
+	top: 24%;
+	left: 140px;
+	opacity: .7;
+	z-index: -1;
+}
+.about-promo-content p {
+	font-size: 30px;
+	line-height: 45px;
+}
+.about-promo-right {
+	margin: 85px 0px 168px 0px;
+}
+.about-title::before, .about-title::after{
+	height:50px;
+}
+.about-title {
+	padding: 60px 0px;
+}
+.about-cont-left1, .about-cont-right2 {
+	position: relative;
+}
+.about-cont-left1, .about-cont-left2{
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.section-title {
+	margin-bottom: 50px;
+}
+
+/* service page */
+.service-promo-content,.team-promo-content,.work-promo-content,.contact-promo-content{
+	position: relative;
+	display: block;
+}
+.service-promo-content h2, .team-promo-content h2, .work-promo-content h2, .contact-promo-content h2 {
+	font-size: 32px;
+	line-height: 45px;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+.testimonials-content {
+	padding: 80px 20px 15px 80px;
+}
+.single-testimonials {
+	margin: 30px 0px;
+}
+
+/* contact page */
+.contact-form input[type="text"] {
+	margin-bottom: 30px;
+	margin-right: 0px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"] {
+	padding: 10px 15px;
+	width: 100%;
+	border-radius: 40px;
+	border: 1px solid #38d39f;
+}
+textarea {
+	height: 194px;
+}
+.scroll-top{
+	width:35px; 
+	height:35px; 
+	line-height:35px;
+	text-align:center; 
+	right:20px;
+}	
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
